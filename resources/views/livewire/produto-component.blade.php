@@ -20,11 +20,7 @@
                     <input type="number" id="valor" wire:model="valor" class="form-control" placeholder="Valor">
                 </div>
 
-                <div class="mb-3">
-                    <label for="imagem" class="form-label">Imagem</label>
-                    <input type="file" id="imagem" wire:model="imagem" class="form-control">
-                    <div wire:loading wire:target="imagem" class="text-muted small mt-1">Carregando imagem...</div>
-                </div>
+              
 
                 <button type="submit" class="btn btn-success w-100">Salvar</button>
             </form>
